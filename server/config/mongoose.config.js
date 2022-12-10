@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 mongoose
-  .connect("mongodb://127.0.0.1/product", {
+  .connect("mongodb://127.0.0.1/products", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
